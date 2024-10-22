@@ -17,6 +17,8 @@ curl --location 'http://localhost:8000/api/user/create/' \
 }'
 
 **Response:**
+
+
 {
     "id": 3,
     "name": "rk",
@@ -42,6 +44,8 @@ curl --location 'http://localhost:8000/api/tasks/create/' \
 }'
 
 **Response:**
+
+
 {
     "id": 3,
     "name": "coding1",
@@ -69,6 +73,8 @@ curl --location 'http://localhost:8000/api/tasks/assign/2/' \
 }'
 
 **Response:**
+
+
 {
     "id": 2,
     "name": "coding1",
@@ -96,6 +102,7 @@ Description: Fetches all tasks assigned to a particular user.
 curl --location 'http://localhost:8000/api/users/2/tasks/'
 
 **Response:**
+
 
 [
     {
