@@ -147,8 +147,8 @@ Get User Tasks: GET /users/<user_id>/tasks/
 
 1. **Clone the Repository:**
   ```
-  git clone https://github.com/ravi-kumar-maury/taskAssignmentBackend.git
-  cd taskAssignmentBackend
+  git clone https://github.com/ravi-kumar-maury/taskAssignment.git
+  cd taskAssignment
   ```
 
 2. **Create a Virtual Environment:**
